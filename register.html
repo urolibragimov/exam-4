@@ -9,20 +9,34 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <div
-          class="navwrap container d-flex justify-content-between bg-dark align-items-center"
-        >
-          <div><img src="./images/Logo.svg" alt="Finsweet" /></div>
-          <div class="navright d-flex align-items-center">
-            <ul class="nav-list d-flex gap-4">
-              <a href="index.html"><li>Home</li></a>
-              <a href="blog.html"><li>Blog</li></a>
-              <a href="about.html"><li>About Us</li></a>
-              <a href="register.html"><li>Register</li></a>
-            </ul>
-            <button class="btn"><a href="login.html">Login</a></button>
+   <header>
+      <nav id="navbar">
+        <div class="container">
+          <div class="nav">
+            <div class="nav-left">
+              <a href="./index.html"
+                ><img src="./images/Logo.svg" alt="Logo bor"
+              /></a>
+            </div>
+            <div class="nav-right">
+              <ul class="nav-right__links close-text" id="navbar-responsive">
+                <button id="navbar-close">
+                  <img src="images/login/close.svg" alt="close" class="close" />
+                </button>
+                <li><a href="#" class="close-text">Home</a></li>
+                <li><a href="#" class="close-text">Blog</a></li>
+                <li><a href="#" class="close-text">About Us</a></li>
+                <li>
+                  <a href="#" class="close-text navbar-register">Register</a>
+                </li>
+                <a href="./login.html">
+                  <button id="navbar-login" class="navbar-login">Login</button>
+                </a>
+              </ul>
+              <button id="navbar-open">
+                <img src="images/login/menu.svg" alt="menu" class="open" />
+              </button>
+            </div>
           </div>
         </div>
       </nav>
