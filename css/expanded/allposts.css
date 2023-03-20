@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #232536;
+  width: 100%;
+}
+
+.navwrap {
+  padding: 0 20px;
+}
+.navwrap .navright .nav-list {
+  list-style-type: none;
+  margin-bottom: 0;
+}
+.navwrap .navright .nav-list a {
+  text-decoration: none;
+}
+.navwrap .navright .nav-list a li {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+.navwrap .navright .btn {
+  padding-top: 13px;
+  padding-bottom: 11px;
+}
+.navwrap .navright .btn a {
+  text-decoration: none;
+  background-color: #ffffff;
+  font-family: "Sen";
+  margin-left: 130px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #232536;
+  padding: 15px 40px;
+}
+
+main #step {
+  background-color: #f4f0f8;
+}
+main #step .step_wrap .post h4 {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #232536;
+}
+main #step .step_wrap .post h3 {
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -2px;
+  color: #232536;
+}
+main #step .step_wrap .post h5 {
+  font-family: "Inter";
+  padding-bottom: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #4c4c4c;
+}
+main #step .step_wrap .post h5 span {
+  color: #592ea9;
+}
+main #step .step_wrap .post p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6d6e76;
+}
+main #step .step_wrap .post a {
+  font-family: "Sen";
+  text-decoration: none;
+  background-color: yellow;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  display: inline-block;
+  align-items: center;
+  color: #232536;
+  padding: 15px 40px;
+}
+main #search #myInput {
+  background-image: url("/css/searchicon.png");
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  margin-top: 40px;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 30px;
+}
+main #search #myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+main #search #myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+}
+main #search #myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+main #allposts .website_wrap {
+  margin-bottom: 30px;
+}
+main #allposts .website_wrap .website_right h5 {
+  font-family: "Inter";
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  /* Purple */
+  color: #592ea9;
+}
+main #allposts .website_wrap .website_right h3 {
+  font-family: "Sen";
+  margin-bottom: 65px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  /* identical to box height, or 133% */
+  letter-spacing: -2px;
+  /* Black */
+  color: #232536;
+}
+main #allposts .website_wrap .website_right p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+  /* Medium grey */
+  color: #6d6e76;
+}
+
+footer {
+  background-color: #232536;
+  width: 100%;
+}
+footer .footer_wrap {
+  align-items: center;
+  padding: 50px 0;
+}
+footer .footer_wrap .wrap_right p {
+  font-family: "Inter";
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+  opacity: 0.7;
+}
